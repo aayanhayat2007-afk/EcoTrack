@@ -1,19 +1,32 @@
-# EcoTrack — Personal Carbon Footprint Calculator
+# EcoTrack
 
-A self-contained responsive sustainability calculator built in HTML, CSS, and JavaScript. No dependencies, account, API keys, or server required.
+I made EcoTrack to explore a simple question: how much do everyday choices add to a person's carbon footprint?
 
-## Run locally
-Open `index.html` in a modern browser.
+The site estimates yearly emissions from driving, flights, home energy and food. You can change the inputs and immediately see which areas make up the largest share. It also suggests a couple of practical changes based on your results.
 
-## Calculation assumptions
-- Gasoline car: 0.404 kg CO2/mile (illustrative)
-- Flights: 0.16 kg CO2e/passenger-mile, 3,000 miles/round trip (illustrative)
-- Electricity: 0.386 kg CO2/kWh (illustrative grid average)
-- Natural gas: 5.3 kg CO2/therm (illustrative)
-- Food: 3.3 / 2.5 / 1.7 / 1.4 tonnes CO2e/year for meat-heavy / mixed / vegetarian / vegan diets (illustrative diet averages)
+## Try it
 
+Download and Open `index.html` in a browser. Everything runs on the page itself, so there's nothing to install or sign into.
 
-- Change each slider and diet menu; results should update.
-- Reset restores defaults.
-- Download results creates a text file.
-- Check on mobile-sized browser and desktop.
+Move the sliders, switch the diet option, and watch the estimate change. **Reset choices** brings back the starting values. **Save my results** downloads a text summary.
+
+## A note about the numbers
+
+This is an educational estimate, not a full carbon audit. The calculation uses these illustrative assumptions:
+
+| Activity | Factor used |
+| --- | --- |
+| Driving | 0.404 kg CO₂ per mile |
+| Flying | 0.16 kg CO₂e per passenger-mile; 3,000 miles per round trip |
+| Electricity | 0.386 kg CO₂ per kWh |
+| Natural gas | 5.3 kg CO₂ per therm |
+| Diet | 3.3 / 2.5 / 1.7 / 1.4 tonnes CO₂e annually for meat-heavy / mixed / vegetarian / vegan |
+
+Real emissions vary with where you live, how you travel, your electricity provider and what you eat. The [EPA household carbon footprint calculator](https://www.epa.gov/ghgemissions/household-carbon-footprint-calculator) is a useful starting point for understanding these differences.
+
+## Files
+
+- `index.html` — the entire website, including styling and calculations
+- `AI_Prompt_Documentation.pdf` — supporting prompt documentation (review for accuracy before submitting)
+
+No accounts, external libraries or API keys are needed.
