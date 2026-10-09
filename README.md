@@ -22,11 +22,4 @@ This is an educational estimate, not a full carbon audit. The calculation uses t
 | Natural gas | 5.3 kg CO₂ per therm |
 | Diet | 3.3 / 2.5 / 1.7 / 1.4 tonnes CO₂e annually for meat-heavy / mixed / vegetarian / vegan |
 
-Real emissions vary with where you live, how you travel, your electricity provider and what you eat. The [EPA household carbon footprint calculator](https://www.epa.gov/ghgemissions/household-carbon-footprint-calculator) is a useful starting point for understanding these differences.
 
-## Files
-
-- `index.html` — the entire website, including styling and calculations
-- `AI_Prompt_Documentation.pdf` — supporting prompt documentation (review for accuracy before submitting)
-
-No accounts, external libraries or API keys are needed.
